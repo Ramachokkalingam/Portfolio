@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a324c">
+  <meta name="msapplication-navbutton-color" content="#1a324c">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description"
+    content="Ramachokkalingam S A: AI Whisperer, Trailblazer (and maybe homework conqueror) from Chennai, India.">
+
+  <link rel="stylesheet" href="static/css/main.css" />
+  <link rel="stylesheet" href="static/css/index.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="static/images/favicon/site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+  <!-- Google Analytics -->
+
+  <title>Ramachokkalingam S A: AIML student</title>
+</head>
+
+<body>
+  <header>
+    <div class="fixed-header animate-background">
+      <div class="container header-container">
+        <div class="logo-container">
+          <span class="logo animate-logo">Ramachokkalingam S A</span>
+        </div>
+        <div class="header-text">
+          <h1>
+            <p class="animate-text-1">Passionate AI&ML student </p>
+            <p class="animate-text-2">and robotics enthusiast</p>
+          </h1>
+        </div>
+        <h2 class="animate-subtitle">
+          I translate dreams into reality, designing AI and building robots
+        </h2>
+        <div class="scroll-button animate-scroll" tabindex="0">
+          <div class="arrow">↓</div> scroll
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <nav>
+    <div class="container">
+      <a href="/" class="nav-logo" title="Back to Homepage">
+        Ramachokkalingam S A
+      </a>
+      <div class="nav-links">
+        <a href="#about" class="link">about</a>
+        <a href="#education" class="link">education</a>
+        <a href="#projects" class="link">projects</a>        
+        <a href="articles" class="link">articles</a>
+        <a href="https://docs.google.com/document/d/1NAdzfOjhsy22SpLUi6Qt4D1C3BEu9lXo_FeR_yzqHzU" target="_blank" rel="noopener" class="link">resume</a>
+        <a href="#footer" class="link">contact</a>      
+      </div>
+      <div class="nav-controls">
+        <button id="menu-display" title="Show Menu" class="hamburger"></button>
+        <button id="theme-display" title="Select a color scheme" class="control">
+        </button>
+      </div>
+      <div class="theme-container">
+        <button class="dark theme-select" id="dark-select" onclick="setTheme('dark')"
+          onkeydown="(e) => setThemeKey(e, 'dark')" aria-label="Set dark theme">
+          <div class="theme-label">
+            Dark
+          </div>
+          <div class="theme">
+            <div class="color background"></div>
+            <div class="color shade-100"></div>
+            <div class="color shade-300"></div>
+            <div class="color shade-500"></div>
+            <div class="color text"></div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <main>
+
+    <section id="about">
+      <div class="container inner-container">
+        <div class="intro scroll-in">
+          <h2 class="section-title">Hello, I'm <span class="title-icon">Ramachokkalingam S A </span></h2>
+          <div class="section-subtitle">
+            <div class="justify">           
+            <p>              
+              Yes, that's my real name. Don't worry, "Rama" works just fine. By day, I'm an AI/ML student on a quest to unlock the secrets of artificial intelligence.  Think of me as the translator between humans and machines, using natural language processing to bridge the communication gap. When I'm not wrestling with complex algorithms, you'll find me glued to my gadgets (research never sleeps, right?) or conquering new hiking trails. Let's just say my AI assistant has gotten very good at emergency navigation.
+            </p>
+            <p>
+              Professionally, I'm like a digital detective, deciphering the language of machines. Neural networks are my playground, and I'm fluent in the dialect of robots – all thanks to my AI/ML studies.  Sure, I have a few certificates to prove I'm not just making this stuff up in my basement (although some groundbreaking ideas are born there!). My work has even caught the eye of some universities and industry folks, which is a good sign I'm not accidentally teaching robots to overthrow humanity (yet).
+            </p>
+            <p>
+              But I'm more than just circuits and code! When I'm not building the future, I'm an avid photographer. I take my skills to new heights (literally) with a passion for drone photography.  Capturing the world's beauty from above is just another way I see the world, even if it's a particularly grumpy squirrel giving me the side-eye from a cloud's vantage point.            
+            </p>
+            <p>The digital world is my other playground!  My skills in digital marketing and SEO basically mean I can make websites climb search engine rankings faster than a well-programmed robot can climb a building (safety first, of course!).</p>         
+            <p>Beyond the digital realm, I'm passionate about animals and saving the planet.  That's why I volunteer for local sustainability projects. Small changes make a big difference, you know?</p>
+            <p>Looking ahead, the future is wide open! I'm excited to keep pushing boundaries and exploring the endless possibilities of AI and machine learning. Whether it's mastering the art of natural language processing or building the ultimate eco-friendly robot, I'm always up for a challenge.</p>
+            <p>Want to join the adventure?  Let's connect and collaborate on awesome AI/ML projects! Together, we can unlock the potential of this incredible technology.</p>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="wave-border top">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: var(--shade-100)"></path>
+        <path class="neon-path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98"
+          style="stroke: var(--neon-color);fill: none;"></path>
+      </svg>
+    </div>
+
+    
+    <section id="projects">
+      <div class="container">
+        <div class="title-container scroll-in">
+          <h2 class="section-title">Projects <span class="title-icon">&#128187;</span></h2>
+          <p class="section-subtitle">
+            Here are some of the projects I've worked on:
+          </p>
+        </div>
+        <div class="articles-container">
+          <div class="article scroll-in">
+            <div class="article-image">
+              <a href="articles"
+                target="_blank" rel="noopener">
+                <img src="./static/images/index/drone.png"
+                  alt="AI Drone">
+              </a>
+            </div>
+            <div class="article-content">
+              
+              <h3 class="article-title">
+                <a href="articles"
+                  target="_blank" rel="noopener">
+                  AI Drone
+                </a>
+              </h3>
+              <div class="article-description">
+                <p>
+                  AI powered object detection drone designed for surveillance and various other applications. By leveraging advanced algorithms and machine learning techniques, the drone will autonomously identify and track objects of interest.
+                <ul class="project-tags" title="skills">
+                  <li class="tag">Raspberry Pi</li>
+                  <li class="tag">Python</li>
+                  <li class="tag">YOLOv5</li>
+                  <li class="tag">Machine Learning</li>
+                  <li class="tag">IoT</li>
+                  <li class="tag">Data Networking</li>
+                  <li class="tag">3D Modeling</li>
+                  <li class="tag">Electronics</li>
+                  <li class="tag">Flight Dynamics</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="article scroll-in">
+            <div class="article-image">
+              <a href="articles"
+                target="_blank" rel="noopener">
+                <img src="./static/images/index/medibot.png"
+                  alt="MediBot">
+              </a>
+            </div>
+            <div class="article-content">
+              <!-- <div class="article-site">
+                <a href="https://github.com/Ramachokkalingam/MeDiTi" target="_blank" rel="noopener">MediBot</a>
+                  target="_blank" rel="noopener">MediTi</a>
+              </div> -->
+              <h3 class="article-title">
+                <a href="articles"
+                  target="_blank" rel="noopener">
+                  MediBot                </a>
+              </h3>
+              <div class="article-description">
+                <p>
+                  A Medical Chatbot providing personalized medical advice, nearby doctor and hospital locators, and insights into both conventional and Ayurvedic practices, ensuring holistic healthcare accessibility and convenience for users.
+                </p>
+                
+                <ul class="project-tags" title="skills">
+                  <li class="tag">Rasa NLU</li>
+                  <li class="tag">NLP</li>
+                  <li class="tag">Flutter</li>
+                  <li class="tag">DevOps</li>
+                  <li class="tag">Socket.io</li>  
+                  <li class="tag">Chatbot Development</li>
+                  <li class="tag">Python</li>
+                  <li class="tag">Machine Learning</li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+          <div class="article scroll-in">
+            <div class="article-image">
+              <a href="articles"
+                target="_blank" rel="noopener">
+                <img src="./static/images/index/gps.png"
+                  alt="GeoTag">
+              </a>
+            </div>
+            <div class="article-content">
+              <h3 class="article-title">
+                <a href="articles"
+                  target="_blank" rel="noopener">
+                  GeoTag                </a>
+              </h3>
+              <div class="article-description">
+                <p>
+                  GPS system to automate toll collection for vehicles using geographical location tracking. This project aims to streamline the toll collection process, improve efficiency, and potentially reduce traffic congestion.
+                </p>
+                
+                <ul class="project-tags" title="skills">
+                  <li class="tag">GIS</li>
+                  <li class="tag">Python</li>
+                  <li class="tag">Django</li>
+                  <li class="tag">MongoDB</li>
+                  <li class="tag">Raspberry Pi</li>
+                  <li class="tag">Linux</li>
+                  <li class="tag">RESTful API</li>
+                  <li class="tag">Testing</li>
+                  <li class="tag">Team Management</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="section-link scroll-in">
+          <a href="projects" class="link-btn">View All Projects</a>
+        </div>
+      </div>      
+    </section>    
+    <div class="wave-border bottom">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+          style="stroke: none; fill: var(--shade-100);"></path>
+        <path class="neon-path" d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98"
+          style="stroke: var(--neon-color); fill: none;"></path>
+      </svg>
+    </div>
+
+    <section id="education">
+      <div class="container">
+        <div class="title-container scroll-in">
+          <h2 class="section-title">Education <span class="title-icon">&#x1F468;&#x1F3FB;&zwj;&#x1F393;</span></h2>
+          <p class="section-subtitle">
+            I'm a lifelong learner, always seeking new knowledge and skills. Here are some of my academic achievements:
+          </p>
+        </div>        
+        <div class="project-container">
+          <div class="project scroll-in">
+            <div class="project-image">
+              <img src="./static/images/index/amity.png" width="720" height="340" alt="amity">
+            </div>
+            <div class="project-content-container">
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a> IB.Tech AI & ML </a>
+                </h3>
+                <div class="project-description">
+                  <a href="https://www.amity.edu/" target="_blank" rel="noopener">&#x1F3DB; Amity University Gurugram, Haryana </a><br>
+                  <a>2022 - 2027(Expected)</a>
+                <div class="justify">
+                  <p>
+                    I'm currently pursuing my Integrated B.Tech in Artificial Intelligence and Machine Learning at Amity
+                    University. The course covers a wide range of topics, from deep learning to natural language
+                    processing, and I'm always eager to learn more.</p>
+                  </p>
+                </div>
+                </div>
+                <div class="project-links">
+                  <a href="#education" class="link-btn">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project scroll-in">
+            <div class="project-image">
+              <img src="./static/images/index/psg.png" width="720" height="340"
+                alt="psg">
+            </div>
+            <div class="project-content-container">
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a>
+                    M.Sc in Data Science
+                  </a>
+                </h3>
+                <div class="project-description">
+                  <a href="https://study.iitm.ac.in/ds/" target="_blank" rel="noopener">&#128104;&#8205;&#128187;
+                    IIT Madras </a><br>
+                  <a>2021 - 2022(Droped)</a>
+                <div class="justify">
+                  <p>
+                    One of my best academic years was after high school when I requested a year's break from my 
+                    parents to prepare for competitive exams. They were initially reluctant, so I decided to dedicate
+                     that time to learning a beautiful program to persuade them. Additionally, during that year, I 
+                     obtained a certification in Introduction to Coding from PSG Coimbatore and also undertook some
+                      freelance work.</p>
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project scroll-in">
+            <div class="project-image">
+              <img src="./static/images/index/school.png" width="720" height="340"
+                alt="psg">
+            </div>
+            <div class="project-content-container">
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a>
+                    Higher Secondary
+                  </a>
+                </h3>
+                <div class="project-description">
+                  <a href="https://study.iitm.ac.in/ds/" target="_blank" rel="noopener">&#128104;&#8205;&#128187;
+                    State Board of Higher Secondary, Tamil Nadu </a><br>
+                  <a>2019 - 2021</a>
+                <div class="justify">
+                  <p>In high school, I pursued a rigorous curriculum encompassing Math, Physics, Chemistry, and Biology. Notably, I excelled academically and took on leadership roles in both the school's science and chess clubs. As a lead and active member, I participated in numerous competitions, showcasing my passion for science and strategic thinking. Additionally, I eagerly contributed to various school science fairs, where my projects garnered recognition and earned me prizes.</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>      
+
+    <div class="wave-border top">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: var(--shade-100)"></path>
+        <path class="neon-path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98"
+          style="stroke: var(--neon-color);fill: none;"></path>
+      </svg>
+    </div>
+  </main>
+  
+
+  <footer class="index-footer">
+    <section id="footer">
+
+    <div class="icon-container">
+      <div class="social-media">  
+      
+        <a href="https://github.com/Ramachokkalingam" target="_blank" rel="noopener" title="Github">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ramachokkalingam"target="_blank" rel="noopener" title="LinkedIn">
+          <i class="fa fa-linkedin"></i>
+        </a>            
+        <a href="mailto:ramachokkalingam03@gmail.com"target="_blank" rel="noopener" title="Email">
+          <i class="fa fa-envelope"></i>
+        </a>   
+        <a href="https://twitter.com/raman_asura"target="_blank" rel="noopener" title="Twitter">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://medium.com/@ramachokkalingam03"target="_blank" rel="noopener" title="Medium">
+          <i class="fa fa-medium"></i>
+        </a>
+        <a href="https://www.instagram.com/raman_asura/"target="_blank" rel="noopener" title="LinkedIn">
+          <i class="fa fa-instagram"></i>
+        </a>   
+      </div>
+        </div>
+      </section>
+        <div class="copyright">
+          <p>©2024 <a href="/">Ramachokkalingam</a>. All rights reserved.</p>
+          <p>Designed and constructed by <a href="/">Ramachokkalingam</a></p>
+        </div>
+    </div>
+  </footer>
+
+
+
+  
+  
+</body>
+
+<script src="./static/js/index.js"></script>
+<script src="./static/js/scroll.js"></script>
+  
+</html>
